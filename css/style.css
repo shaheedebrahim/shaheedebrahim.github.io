@@ -51,3 +51,12 @@ h2{
 .container .row .col-xs-12 h2{
     margin-top: 0px;
 }
+
+.contact-section{
+    margin-top: 25px;
+    background-color: #18bc9c;
+}
+.contact-section .container .row .col-xs-12 h2{
+    color: #FFF;
+}
+
