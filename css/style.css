@@ -2,7 +2,7 @@ a,
 a:hover,
 a:focus,
 a:active,
-a:active {
+a.active {
     outline: 0;
     color: #18bc9c;
 }
@@ -40,12 +40,15 @@ h2{
     border-bottom: 0px;
 }
 
-.navbar a:focus{
-    outline: 0;
-}
-
 .navbar .navbar-nav li a{
     color: #FFF;
+}
+
+.navbar .navbar-nav li a:hover,
+.navbar .navbar-nav li a:focus,
+.navbar .navbar-nav li a:active,
+.navbar .navbar-nav li a:active{
+    color: #18bc9c;
 }
 
 .container .row .col-xs-12 h2{
