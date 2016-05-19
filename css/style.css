@@ -19,9 +19,6 @@ h2{
   letter-spacing: 4px;
 }
 
-#experience.jumbotron{
-    padding-top: 75px;
-}
 
 .jumbotron {
   background-color: #18bc9c;
@@ -53,8 +50,7 @@ h2{
 
 .navbar .navbar-nav li a:hover,
 .navbar .navbar-nav li a:focus,
-.navbar .navbar-nav li a:active,
-.navbar .navbar-nav li a:active{
+.navbar .navbar-nav li a:active {
     color: #18bc9c;
 }
 
